@@ -3,10 +3,6 @@ from urllib.request import urlopen as uReq
 import numpy as np
 
 
-
-
-
-#to combine the string replacing the white spaces 
 def combine(year,soc):
     myurl = soc[0]+year+soc[1]
     return myurl
